@@ -1,0 +1,43 @@
+/* Select All */
+* {
+font-family: sans-serif;
+}
+
+/* Type selektor/tag selektor */
+p {
+font-size: 16px; 
+
+}
+label {
+    font-weight: bold;
+}
+/* Pseudo Klasse */
+#midt-artikkel {
+    background-color: antiquewhite;
+}
+
+/* ID-selektor */
+article:first-child {
+    background-color: beige;
+}
+
+/* Klasse-selektor */
+.siste-artikkel {
+    background-color: bisque;
+}
+
+.bigger-font {
+    font-size: 30px;
+    font-weight: bold;
+    color:blue;
+}
+
+/* Attributt-selektor */
+input[type="password"]{
+    border: 2px red solid;
+}
+
+input[type="username"]{
+    border: 2px red solid;
+    border-radius: 8px;
+}
