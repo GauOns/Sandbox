@@ -1,0 +1,31 @@
+.boks1{
+    background-color: rgb(85, 0, 255);
+    opacity: 0.5;
+    background-image: url("https://picsum.photos/400/200");
+    background-size: cover;
+
+}
+/*Når jeg brukte contain ble det flere av samme bilde i en boks mens når jeg brukte cover dekket ett bilde hele boksen*/ 
+/* Når jeg la til opacity: 0.5; ble teksten faded*/
+.boks2{
+    background-color: #ff5733;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.boks3{
+    background-color: rgb(140, 140, 37);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+h1{
+    color: hsl(11, 100%, 60%);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    font-family: 'Gill Sans', sans-serif, Helvetica;
+}
