@@ -16,7 +16,12 @@ body{
 header {
     background-color: #7c7171;
     padding: 2rem 1rem;
-    color: #edd586f1
+    color: #edd586f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
 
 header span{
@@ -26,10 +31,13 @@ header span{
 }
 
 nav {
+
     ul{
         list-style-type: none;
+        display: flex;
+        gap: 1rem;
         li{
-            display: inline-block;
+        
             margin-right: 16px;
             margin-left: 16px;
             a{
@@ -50,9 +58,19 @@ main{
     margin: 32px auto;
     padding: 0 1.5rem;
 
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
 }
 
 article{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+
     background-color: #ffffff;
     border: 1px #dde3ea solid;
     border-radius: .5rem;
