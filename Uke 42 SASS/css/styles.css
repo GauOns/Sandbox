@@ -1,13 +1,10 @@
 @charset "UTF-8";
 /*Extension*/
-.flex-column, .sidefot, .hamburger, .toppheader {
+.flex-column, .kontaktskjema, .sidefot, .hamburger {
   display: flex;
   flex-direction: column;
 }
 
-/*Variabler*/
-/*Farger */
-/*Spacing*/
 /* Grunnoppsett */
 * {
   box-sizing: border-box;
@@ -38,6 +35,8 @@ a {
 
 /* Toppheader */
 .toppheader {
+  diplay: flex;
+  flex-direction: column;
   align-items: center;
   gap: 0.75rem;
   padding: 1rem;
@@ -102,8 +101,8 @@ a {
 
 /* Hero */
 .hero {
-  background-color: #2b2d42;
-  color: #ffffff;
+  background-color: red;
+  color: white;
   text-align: center;
   padding: 3rem 1rem;
 }
@@ -185,8 +184,7 @@ main h2 {
 .om-oss {
   display: grid;
   grid-template-columns: 1fr;
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
+  column-gap: 2.5rem;
   align-items: start;
 }
 
@@ -278,10 +276,6 @@ main h2 {
 address {
   font-style: normal;
   line-height: 1.7;
-}
-
-.kontaktskjema {
-  @extendv : .flex-column;
 }
 
 .kontaktskjema label {
